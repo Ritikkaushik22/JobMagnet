@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Resume = () => {
+const Resumes = () => {
   return (
     <div className="resume-container">
       <h2>Resume</h2>
@@ -9,4 +9,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Resumes;

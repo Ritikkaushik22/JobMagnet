@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import GovtJobs from "./components/GovtJobs";
 import YouTube from "./components/YouTube";
 import PrivateJobs from "./components/PrivateJobs";
-import Resume from "./components/Resume";
+import Resumes from "./components/Resumes";
 import SubscriptionPlan from "./components/SubscriptionPlan";
 import "./App.css";
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/govt-jobs" element={<GovtJobs />} />
           <Route path="/youtube" element={<YouTube />} />
           <Route path="/private-jobs" element={<PrivateJobs />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/resume" element={<Resumes />} />
           <Route path="/subscription-plan" element={<SubscriptionPlan />} />
         </Routes>
       </div>
